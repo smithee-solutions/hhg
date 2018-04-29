@@ -1,0 +1,14 @@
+hhg rasbian
+
+stuff specifically for rasbian on the raspberry pi
+
+to change keyboard layout to US English (sorrry, raspi elves, I can't use bash with her majesty's keyboard layout...)
+
+sudo raspi-config
+
+Note:  as they point out on the site, use the raspi resources if possible.  they're likely to be more 
+accurate than whatever a google search gave you.
+
+credits
+
+https://www.raspberrypi.org/forums/viewtopic.php?t=80127
