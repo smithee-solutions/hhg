@@ -1,3 +1,18 @@
 hhg for systemd
 
 (with raspbian, if it matters)
+
+To start:
+
+sudo systemctl enable sshd.service
+
+note: might need to do systemctl enable ssh.service, which will create sshd.service as an alias.
+
+To stop:
+
+sudo systemctl disable sshd.service
+
+credits:
+Thanks to 
+https://askubuntu.com/questions/978852/enabling-and-disabling-sshd-at-boot-via-systemd
+for providing guidance on this.
